@@ -41,6 +41,8 @@ function App()
   // useEffect(() => {
   //   fetchData()
   // }, [fetchData]);
+
+
   return ( <div className = "App container mx-auto mt-3 font-thin" >
     <h1 className = "text-5xl" >
     <BiCalendar className = "inline-block text-red-400" /> Your appointments </h1> 
@@ -70,5 +72,7 @@ function App()
     </div>
   );
 }
+
+
 
 export default App;
